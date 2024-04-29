@@ -1,0 +1,14 @@
+{
+  "name": "nativefier-google-calendar",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "nativefier 'https://calendar.google.com/' --name \"Google Calendar\" --counter --single-instance --icon ./google-calendar.icns --darwin-dark-mode-support --background-color '#ffffff'"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "nativefier": "^52.0.0"
+  }
+}

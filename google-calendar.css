@@ -1,0 +1,15 @@
+header#gb {
+  -webkit-app-region: drag;
+}
+
+header#gb * {
+  -webkit-app-region: none;
+}
+
+.gb_hd {
+  display: none !important;
+}
+
+.gb_Bd {
+  margin-left: 16rem;
+}
